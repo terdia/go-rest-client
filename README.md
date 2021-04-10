@@ -1,7 +1,7 @@
 # Go Rest Client
 
 A Simple HTTP client for Golang with mock compatibility, take a look at
-the [example] (https://github.com/terdia/go-rest-client/blob/main/src/example) folder for usage and sample tests
+the [example](https://github.com/terdia/go-rest-client/blob/main/src/example) folder for usage and sample tests
 
 ```go
 package main
@@ -55,5 +55,5 @@ Thank you for considering contributing to Go Rest Client! pull request all welco
 ## License
 
 Go Rest Client is open-sourced software licensed under
-the [MIT license] (https://github.com/terdia/go-rest-client/blob/main/LICENSE).
+the [MIT license](https://github.com/terdia/go-rest-client/blob/main/LICENSE).
 
