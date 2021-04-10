@@ -3,7 +3,7 @@ package example
 import (
 	"encoding/json"
 	"errors"
-	rest "github.com/terdia/go-rest-client/src"
+	gorest "github.com/terdia/go-rest-client/src"
 	"io/ioutil"
 	"net/http"
 )
@@ -19,7 +19,7 @@ type animalFact struct {
 }
 
 func CreatePost(request *CreatePostRequest, headers http.Header) (*CreatePostResponse, error) {
-	res, err := rest.Post(jsonPlaceholderUrl, request, headers)
+	res, err := gorest.Post(jsonPlaceholderUrl, request, headers)
 	if err != nil {
 		return nil, err
 	}
@@ -44,7 +44,7 @@ func CreatePost(request *CreatePostRequest, headers http.Header) (*CreatePostRes
 
 func GetAnimalFacts(factId string) (*animalFact, error) {
 
-	res, err := rest.Get(aniFactApiUrl+"/facts/"+factId, nil)
+	res, err := gorest.Get(aniFactApiUrl+"/facts/"+factId, nil)
 	if err != nil {
 		return nil, err
 	}

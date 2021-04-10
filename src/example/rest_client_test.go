@@ -2,7 +2,7 @@ package example
 
 import (
 	"github.com/stretchr/testify/assert"
-	rest "github.com/terdia/go-rest-client/src"
+	gorest "github.com/terdia/go-rest-client/src"
 	"github.com/terdia/go-rest-client/src/utils/mocks"
 	"testing"
 )
@@ -12,7 +12,7 @@ const (
 )
 
 func init() {
-	rest.Client = &mocks.MockHttpClient{}
+	gorest.Client = &mocks.MockHttpClient{}
 }
 
 func TestCreatePost(t *testing.T) {

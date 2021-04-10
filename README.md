@@ -9,7 +9,7 @@ package main
 import (
 "fmt"
 "github.com/terdia/go-rest-client/src/example"
-//rest "github.com/terdia/go-rest-client/src"
+//gorest "github.com/terdia/go-rest-client/src"
 //"net/http"
 //"time"
 )
@@ -17,7 +17,7 @@ import (
 func main() {
 
 //You can provide custom input to the HTTP client like so, in most cases the default is okay.
-//rest.Client = &http.Client{
+//gorest.Client = &http.Client{
 //Transport:     nil,
 //CheckRedirect: nil,
 //Jar:           nil,
