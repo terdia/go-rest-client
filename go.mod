@@ -1,4 +1,4 @@
-module github.com/terdia/go-rest-client/src/gorest
+module github.com/terdia/go-rest-client
 
 go 1.14
 
